@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char a;
+    char a[34];
     int b;
-    char c;
+    char c[34];
     scanf("%s %d %s", &a, &b, &c);
     printf("Name: %s \n Age: %d \n Hobby:%s");
     return 0;
