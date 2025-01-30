@@ -9,7 +9,5 @@ if (a==b) {
 else {
     print("False");
 }
-
-  
     return 0;
 }
