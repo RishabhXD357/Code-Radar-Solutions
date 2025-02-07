@@ -1,6 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    printf("%s", Set);
+    int a;
+    scanf("%d",&a);
+    if ( a & (1 << size(-1))){
+        printf("Set");
+    }   
+    else {
+        printf("Not Set")
+    }
     return 0;
 }
